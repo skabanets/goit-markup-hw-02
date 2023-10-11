@@ -1,0 +1,129 @@
+:root {
+  --primary-background: #ffffff;
+  --dark-background: #2e2f42;
+  --secondary-background: #f4f4fd;
+
+  --primary-text: #2e2f42;
+  --ordinary-text: #434455;
+  --secondary-text: #ffffff;
+  --light-text: #f4f4fd;
+  --blue-text: #4d5ae5;
+
+  --active-link: #404bbf;
+
+  --primary-button: #4d5ae5;
+  --active-button: #404bbf;
+  --ordinary-button: #f4f4fd;
+
+  --primary-border: #e7e9fc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  color: var(--ordinary-text);
+  background-color: var(--primary-background);
+}
+
+h1 {
+  color: var(--secondary-text);
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+
+h2,
+h3 {
+  color: var(--primary-text);
+}
+
+h3 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--active-link);
+}
+
+a:focuse {
+  color: var(--active-link);
+}
+
+button {
+  background-color: var(--ordinary-button);
+  color: var(--blue-text);
+  cursor: pointer;
+  letter-spacing: 0.64px;
+}
+
+button:hover {
+  background-color: var(--active-button);
+  color: var(--secondary-text);
+}
+
+button:focus {
+  background-color: var(--active-button);
+  olor: var(--secondary-text);
+}
+
+header {
+  border-bottom: 1px solid var(--primary-border);
+}
+
+footer {
+  background-color: var(--dark-background);
+  color: var(--light-text);
+}
+
+footer a {
+  color: var(--light-text);
+}
+
+nav {
+  color: var(--primary-text);
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.logo {
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.web-logo {
+  color: var(--blue-text);
+}
+
+.main-section {
+  background-color: var(--dark-background);
+}
+
+.main-button {
+  background-color: var(--primary-button);
+  color: var(--secondary-text);
+}
+
+.team-section {
+  background-color: var(--secondary-background);
+}
