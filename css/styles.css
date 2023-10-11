@@ -113,7 +113,7 @@ body {
 
 .filter-button:hover,
 .filter-button:focus {
-  background-color: var(--ac);
+  background-color: var(--active-button);
   color: var(--secondary-text);
 }
 
