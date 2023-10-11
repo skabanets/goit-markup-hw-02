@@ -61,18 +61,18 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--ordinary-text);
+  color: var(--primary-text);
 }
 
 .contact-info {
   font-style: normal;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--ordinary-text);
 }
 
 .info-link {
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--ordinary-text);
 }
 
 .main-section {
@@ -113,7 +113,7 @@ body {
 
 .filter-button:hover,
 .filter-button:focus {
-  background-color: var(--active-button);
+  background-color: var(--ac);
   color: var(--secondary-text);
 }
 
