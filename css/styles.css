@@ -24,19 +24,6 @@ body {
   background-color: var(--primary-background);
 }
 
-button {
-  background-color: var(--ordinary-button);
-  color: var(--blue-text);
-  cursor: pointer;
-  letter-spacing: 0.64px;
-}
-
-button:hover,
-button:focus {
-  background-color: var(--active-button);
-  color: var(--secondary-text);
-}
-
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -74,7 +61,7 @@ button:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--primary-text);
+  color: var(--ordinary-text);
 }
 
 .contact-info {
@@ -100,14 +87,34 @@ button:focus {
   color: var(--secondary-text);
 }
 
-.main-button {
-  background-color: var(--primary-button);
-  color: var(--secondary-text);
+.button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.main-button {
+  background-color: var(--primary-button);
+  color: var(--secondary-text);
+}
+
+.main-button:hover,
+.main-button:focus {
+  background-color: var(--active-button);
+}
+
+.filter-button {
+  background-color: var(--ordinary-button);
+  color: var(--blue-text);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--active-button);
+  color: var(--secondary-text);
 }
 
 .subtitle {
